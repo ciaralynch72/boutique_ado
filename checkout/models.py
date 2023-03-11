@@ -1,4 +1,4 @@
-import uuid
+import uuid #used to genderate order number
 
 from django.db import models
 from django.db.models import Sum
