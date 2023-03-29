@@ -23,6 +23,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'True'
 
+
 ALLOWED_HOSTS = ['boutique-ado-cl.herokuapp.com', 'localhost']
 
 
@@ -127,7 +128,6 @@ else:
             'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
         }
     }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
